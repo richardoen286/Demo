@@ -1,0 +1,7 @@
+var person = prompt("Please enter your name", "");
+
+if (person == null || person == "") {
+  alert("User cancelled the prompt.");
+} else {
+  alert("Hello " + person + "! How are you today?");
+}
